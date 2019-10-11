@@ -2,7 +2,7 @@
 layout:     post
 title:      Kobe shot prediction
 subtitle:   A ML project based on boosting model
-date:       2019-06
+date:       2019-06-20
 author:     Eudora
 header-img: img/post-bg-cook.jpg
 catalog: true
