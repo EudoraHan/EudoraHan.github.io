@@ -1,3 +1,20 @@
+---
+layout:     post
+title:      CatBoost Property Research Test
+subtitle:   Explored the CatBoost property based on different dataset in both CPU and GPU environment
+date:       2019-07-30
+author:     Yun Han
+header-img: img/post-bg-cook.jpg
+catalog: true
+tags:
+    - ML
+    - Python
+    - CatBoost
+    - Work Experience
+---
+
+
+
 
 # CatBoost Property Test
 
