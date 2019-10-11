@@ -1,11 +1,24 @@
+---
+layout:     post
+title:      User Churn Prediction
+subtitle:   In this project, we use supervised learning models to identify customers who are likely to stop using service in the future. Furthermore, we will analyze top factors that influence user retention.
+date:       2019-07-24
+author:     Yun Han
+header-img: img/post-bg-cook.jpg
+catalog: true
+tags:
+    - ML
+    - Project
+    - Random Forest
+    - LightGBM
+    - CatBoost
+---
+
+
+
 
 # User Churn Prediction
 
-Yun Han
-
-7/24/2019
-
-## Contents
 
 # Part 0: Upload dataset from local
 
