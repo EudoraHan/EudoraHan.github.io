@@ -1,8 +1,21 @@
+---
+layout:     post
+title:      Youtube Comments Analysis
+subtitle:   Use Spark and NLP to analysis the Youtube video comments.
+date:       2019-08-10
+author:     Yun Han
+header-img: img/post-bg-cook.jpg
+catalog: true
+tags:
+    - NLP
+    - Spark
+    
+---
 
-### Youtube Comment Analysis
+## Youtube Comment Analysis
 In this notebook, we have a dataset of user comments for youtube videos related to animals or pets. We will attempt to identify cat or dog owners based on these comments, find out the topics important to them, and then identify video creators with the most viewers that are cat or dog owners.
 
-#### 0. Data Exploration and Cleaning
+### 0. Data Exploration and Cleaning
 
 
 ```python
@@ -260,7 +273,7 @@ only showing top 10 rows
 </div>
 
 
-#### 1. Build the classifier 
+### 1. Build the classifier 
 In order to train a model against the comments, you can use RegexTokenizer to split each comment into a list of words and then use Word2Vec or other model to convert the list to a word vector. What Word2Vec does is to map each word to a unique fixed-size vector and then transform each document into a vector using the average of all words in the document.
 
 
@@ -659,7 +672,7 @@ Testing set accuracy 0.9155495978552279
 </div>
 
 
-#### 2. Classify All The Users
+### 2. Classify All The Users
 We can now apply the cat/dog classifiers to all the other users in the dataset.
 
 
@@ -695,7 +708,7 @@ pet_owner_ratio : 0.1312510148596267
 </div>
 
 
-#### 3. Get insigts of Users
+### 3. Get insigts of Users
 
 
 ```python
@@ -770,7 +783,7 @@ words                                                                           
 </div>
 
 
-#### 4. Identify Creators With Cat And Dog Owners In The Audience
+### 4. Identify Creators With Cat And Dog Owners In The Audience
 
 
 ```python
@@ -823,7 +836,7 @@ only showing top 20 rows
 </div>
 
 
-#### 5. Analysis and Future work
+### 5. Analysis and Future work
 
 
 ```python
